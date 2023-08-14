@@ -114,3 +114,7 @@
 .flex-child:first-child {
     margin-right: 20px;
 }
+
+@media screen and (max-width: 37rem) {
+    .flex-container { flex-direction: column; }
+}
