@@ -1,5 +1,5 @@
 ---
-title: "Papers"
+title: "Publications"
 aliases: /archive/
-description: "Preprints and articles on unemployment, economic slack, business cycles, monetary policy, fiscal policy, and science-related topics."
+description: "Peer-reviewed journal articles and essays in Social Studies of Science, Annual Review of Law and Social Science, etc."
 ---
