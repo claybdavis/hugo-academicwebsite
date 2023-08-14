@@ -18,7 +18,7 @@ menu:
           url: /publications/
           weight: 1
         - name: CV
-          url: /cv/
+          url: /cv.pdf/
           weight: 2
         - name: Courses
           url: /courses/
@@ -61,6 +61,8 @@ params:
               url: /publications/
             - name: Courses
               url: /courses/
+            - name: CV
+              url: /cv.pdf/
 
     socialIcons:
         - name: Email
