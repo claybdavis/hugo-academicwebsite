@@ -1,4 +1,3 @@
-{{ range (.Pages.ByParam "category") }}
 {{- define "main" }}
 
 {{- if (and site.Params.profileMode.enabled .IsHome) }}
@@ -117,4 +116,3 @@
 {{- end }}{{/* end profileMode */}}
 
 {{- end }}{{- /* end main */ -}}
-{{ end }}
