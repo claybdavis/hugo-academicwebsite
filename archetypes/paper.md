@@ -4,6 +4,7 @@ date: 2012-06-01
 url: /paper/
 aliases: 
     - /oldurl.html
+categories: [""]
 tags: ["keyword 1","keyword 2"]
 author: ["Author 1", "Author 2"]
 description: "Paper description (for search engines, < 155 chars)" 
