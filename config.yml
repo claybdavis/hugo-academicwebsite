@@ -51,7 +51,7 @@ params:
     profileMode:
           enabled: true
           title: Clay Davis
-          subtitle: "I am PhD candidate in sociology and Mellon Cluster Fellow in science studies at Northwestern University."
+          subtitle: "I am a PhD candidate in sociology and Mellon Cluster Fellow in science studies at Northwestern University."
           imageUrl: "/picture.jpeg"
           imageWidth: 160
           imageHeight: 160
