@@ -1,5 +1,5 @@
-baseURL: "https://pascalmichaillat.org/" 
-title: Pascal Michaillat
+baseURL: "https://claydav.is/" 
+title: Clay Davis
 paginate: 20
 theme: PaperMod
 
@@ -7,7 +7,7 @@ enableInlineShortcodes: true
 enableRobotsTXT: true
 
 social:
-    twitter: pmichaillat
+    twitter: clay_cd
 
 taxonomies:
     tag: tags
@@ -20,20 +20,11 @@ menu:
         - name: Courses
           url: /courses/
           weight: 2
-        - name: Design
-          url: /design/
-          weight: 3
-        - name: Tags
-          url: /tags/
-          weight: 5     
-        - name: Newsletter
-          url: https://pmichaillat.substack.com
-          weight: 4
 
 params:
-    description: "I am an Associate Professor of Economics at UC Santa Cruz. My research covers unemployment, economic slack, business cycles, and macroeconomic policy."
-    author: Pascal Michaillat
-    googleAnalyticsID: "G-97G4MZ4061"
+    description: "I am PhD candidate in sociology and Mellon Cluster Fellow in science studies at Northwestern University."
+    author: Clay Davis
+    googleAnalyticsID: "G-1GWPQVMT3F"
     DateFormat: "January 2006"
     defaultTheme: light
     hideFooter: true
@@ -55,36 +46,25 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Pascal Michaillat
-          subtitle: "I am an Associate Professor of Economics at the University of California, Santa Cruz. I try to understand why economic slack—especially unemployment—exists and why it fluctuates over the business cycle. I also study how macroeconomic policies—including monetary policy, government spending, unemployment insurance, and immigration—should respond to such cyclical fluctuations."
+          title: Clay Davis
+          subtitle: "I am PhD candidate in sociology and Mellon Cluster Fellow in science studies at Northwestern University."
           imageUrl: "/picture.jpeg"
           imageWidth: 160
           imageHeight: 160
-          imageTitle: Pascal Michaillat
+          imageTitle: Clay Davis
           buttons:
             - name: Papers
               url: /papers/
             - name: Courses
               url: /courses/
-            - name: Design
-              url: /design/
-            - name: Newsletter
-              url: https://pmichaillat.substack.com
+
     socialIcons:
-        - name: CV
-          url: /cv.pdf
         - name: Email
-          url: mailto:pascal.michaillat@gmail.com
-        - name: Location
-          url: /location/
+          url: mailto:cdavis@u.northwestern.edu
         - name: Office Hours
           url: /officehours/
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
-        - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
-        - name: GitHub
-          url: https://github.com/pmichaillat?tab=repositories
+          url: https://scholar.google.com/citations?hl=en&user=ZuazMDwAAAAJ
 
     assets:
         disableHLJS: true
@@ -93,7 +73,7 @@ params:
         hiddenInList: true
         hiddenInSingle: true
     label:
-      text: "Pascal Michaillat"
+      text: "Clay Davis"
       icon: /favicon.ico
       iconHeight: 18
 
