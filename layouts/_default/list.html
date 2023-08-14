@@ -72,7 +72,8 @@
     <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
   </div>
     <div class="entry-cover">
-    <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+      <img>
+  </img>
   </div>
   {{- end }}
   {{- if not (.Param "hideMeta") }}
