@@ -102,16 +102,3 @@
     color: var(--secondary);
     box-shadow: 0 1px 0 var(--primary);
 }
-
-.flex-container {
-    display: flex;
-}
-
-.flex-child {
-    flex: 1;
-    border: 2px solid yellow;
-}  
-
-.flex-child:first-child {
-    margin-right: 20px;
-} 
