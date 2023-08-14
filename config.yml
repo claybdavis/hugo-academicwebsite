@@ -23,6 +23,8 @@ menu:
         - name: Syllabi
           url: /syllabi/
           weight: 3
+          name: Google Scholar
+          url: https://scholar.google.com/citations?hl=en&user=ZuazMDwAAAAJ
 
 
 params:
@@ -63,15 +65,18 @@ params:
               url: /cv.pdf
             - name: Syllabi
               url: /syllabi/
+              name: Google Scholar
+              url: https://scholar.google.com/citations?hl=en&user=ZuazMDwAAAAJ
+
 
     socialIcons:
         - name: Email
           url: mailto:cdavis@u.northwestern.edu
         - name: Office Hours
           url: /officehours/
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?hl=en&user=ZuazMDwAAAAJ
-
+        - name: twitter
+          url: https://twitter.com/clay_cd
+        
     assets:
         disableHLJS: true
         disableScrollBarStyle: true
