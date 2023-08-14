@@ -17,9 +17,13 @@ menu:
         - name: Publications
           url: /publications/
           weight: 1
+        - name: CV
+          url: /cv/
+          weight: 2
         - name: Courses
           url: /courses/
-          weight: 2
+          weight: 3
+
 
 params:
     description: "I am a PhD candidate in sociology and Mellon Cluster Fellow in science studies at Northwestern University."
