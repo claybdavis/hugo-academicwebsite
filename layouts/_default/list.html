@@ -1,4 +1,3 @@
-{{ range (.Pages.ByParam "category") }}
 {{- define "main" }}
 
 {{- if (and site.Params.profileMode.enabled .IsHome) }}
@@ -26,6 +25,7 @@
 </header>
 {{- end }}
 
+{{ range (.Pages.ByParam "category") }}
 {{- if .Content }}
 <div class="post-content">
   {{- if not (.Param "disableAnchoredHeadings") }}
@@ -90,6 +90,7 @@
 </div>
 </article>
 {{- end }}
+{{ end }}
 
 {{- if gt $paginator.TotalPages 1 }}
 <footer class="page-footer">
@@ -117,4 +118,3 @@
 {{- end }}{{/* end profileMode */}}
 
 {{- end }}{{- /* end main */ -}}
-{{ end }}
