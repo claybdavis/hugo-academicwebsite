@@ -30,7 +30,7 @@ menu:
 params:
     description: "I am a PhD candidate in sociology and Mellon Cluster Fellow in science studies at Northwestern University."
     author: Clay Davis
-    googleAnalyticsID: "G-1GWPQVMT3F"
+    googleAnalyticsID: ""
     DateFormat: "January 2006"
     defaultTheme: light
     hideFooter: true
