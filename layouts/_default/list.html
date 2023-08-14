@@ -68,9 +68,18 @@
     </h2>
   </header>
   {{- if (ne (.Param "hideSummary") true) }}
+  <div class="flex-container">
+
+  <div class="flex-child magenta">
   <div class="entry-content">
     <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
   </div>
+  </div>
+  <div class="flex-child green">
+    <div class="entry-cover">
+  </div>
+  
+</div>
   {{- end }}
   {{- if not (.Param "hideMeta") }}
   <footer class="entry-footer">
