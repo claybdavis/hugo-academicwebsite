@@ -11,7 +11,8 @@ social:
 
 taxonomies:
     tag: tags
-
+    category: categories
+    
 menu:
     main:
         - name: Publications
