@@ -88,7 +88,7 @@
 
 .entry-cover {
     margin-bottom: var(--gap);
-    text-align: center;
+    text-align: left;
 }
 
 .entry-cover img {
