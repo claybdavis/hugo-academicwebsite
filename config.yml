@@ -23,9 +23,9 @@ menu:
         - name: Syllabi
           url: /syllabi/
           weight: 3
-          name: Google Scholar
+        - name: Google Scholar
           url: https://scholar.google.com/citations?hl=en&user=ZuazMDwAAAAJ
-
+          weight: 4
 
 params:
     description: "I am a PhD candidate in sociology and Mellon Cluster Fellow in science studies at Northwestern University."
@@ -65,7 +65,7 @@ params:
               url: /cv.pdf
             - name: Syllabi
               url: /syllabi/
-              name: Google Scholar
+            - name: Google Scholar
               url: https://scholar.google.com/citations?hl=en&user=ZuazMDwAAAAJ
 
 
