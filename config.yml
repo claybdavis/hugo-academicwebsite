@@ -20,8 +20,8 @@ menu:
         - name: CV
           url: /cv.pdf
           weight: 2
-        - name: Courses
-          url: /courses/
+        - name: Syllabi
+          url: /syllabi/
           weight: 3
 
 
@@ -59,10 +59,10 @@ params:
           buttons:
             - name: Publications
               url: /publications/
-            - name: Courses
-              url: /courses/
             - name: CV
               url: /cv.pdf
+            - name: Syllabi
+              url: /syllabi/
 
     socialIcons:
         - name: Email
