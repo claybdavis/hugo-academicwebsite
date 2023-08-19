@@ -27,8 +27,8 @@
 
 {{- if .Content }}
 #### Header
-<h1>Peer-reviewed publications</h1>
 <div class="post-content">
+  <h1>Peer-reviewed publications</h1>
   {{ partial "by-page-param . "}}
   {{- if not (.Param "disableAnchoredHeadings") }}
   {{- partial "anchored_headings.html" .Content -}}
