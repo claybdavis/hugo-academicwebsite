@@ -27,6 +27,12 @@
 
 {{- if .Content }}
 #### Header
+{{- if (.Param "pr") }}
+  <h1>Peer-reviewed publications</h1>
+{{- else }}
+  <h1>Essays</h1>
+{{- end }}
+
 <div class="post-content">
   {{ partial "by-page-param . "}}
   {{- if not (.Param "disableAnchoredHeadings") }}
@@ -60,11 +66,6 @@
 {{- $class = "post-entry tag-entry" }}
 {{- end }}
 
-{{- if (.Param "pr") }}
-  <h1>Peer-reviewed publications</h1>
-{{- else }}
-  <h1>Essays</h1>
-{{- end }}
 <article class="{{ $class }}">
   <div class="flex-container">
 
