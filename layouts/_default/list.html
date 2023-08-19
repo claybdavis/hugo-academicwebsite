@@ -28,12 +28,12 @@
 {{- if .Content }}
 #### Header
 <div class="post-content">
-  <h1>Peer-reviewed publications</h1>
   {{ partial "by-page-param . "}}
   {{- if not (.Param "disableAnchoredHeadings") }}
   {{- partial "anchored_headings.html" .Content -}}
   {{- else }}{{ .Content }}{{ end }}
 </div>
+<h1>Peer-reviewed publications</h1>
 {{- end }}
 
 {{- $pages := union .RegularPages .Sections }}
