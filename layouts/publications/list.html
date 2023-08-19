@@ -11,6 +11,7 @@
 {{- $term := .Data.Term }}
 {{- range $index, $page := $paginator.Pages }}
 
+<div><h1>Peer-reviewed publications</h1></div>
 {{- if (.Param "pr") }}
 <header class="page-header">
   {{- partial "breadcrumbs.html" . }}
@@ -29,7 +30,6 @@
     </a>
     {{- end }}
   </h1>
-  <h1>Peer-reviewed publications</h1>
 </header>
 
 <article class="post-entry">
@@ -82,7 +82,7 @@
     </a>
     {{- end }}
   </h1>
-  <h1>Essays"</h1>
+  <h1>Essays</h1>
 </header>
 
 <article class="post-entry">
