@@ -53,8 +53,8 @@
 {{- $class = "post-entry tag-entry" }}
 {{- end }}
 
-{{ range sort (.ByParam "pr") }}
-{{- if (".Params.pr" "1") }}
+{{ range sort (.Pages.ByParam "pr") }}
+{{- if (.Params.pr "1") }}
   <h1>Peer-reviewed publications</h1>
 {{- else }}
   <h1>Essays</h1>
