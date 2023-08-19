@@ -33,7 +33,6 @@
   {{- partial "anchored_headings.html" .Content -}}
   {{- else }}{{ .Content }}{{ end }}
 </div>
-<h1>Peer-reviewed publications</h1>
 {{- end }}
 
 {{- $pages := union .RegularPages .Sections }}
@@ -62,6 +61,7 @@
 {{- end }}
 
 <article class="{{ $class }}">
+<h1>Peer-reviewed publications</h1>
   <div class="flex-container">
 
     <div class="flex-child magenta">
