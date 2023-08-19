@@ -16,6 +16,7 @@ cover:
 editPost:
     URL: "https://doi.org/paper"
     Text: "Journal / repository"
+categories: ["Peer-reviewed"]
 
 ---
 
