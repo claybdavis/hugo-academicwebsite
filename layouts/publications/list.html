@@ -28,10 +28,6 @@
 {{- if .Content }}
 #### Header
 {{- if (.Param "pr") }}
-  <h1>Peer-reviewed publications</h1>
-{{- else }}
-  <h1>Essays</h1>
-{{- end }}
 
 <div class="post-content">
   {{ partial "by-page-param . "}}
@@ -97,7 +93,7 @@
 </div>
 </article>
 {{ end }}
-
+{{- end }}
 
 {{- if gt $paginator.TotalPages 1 }}
 <footer class="page-footer">
