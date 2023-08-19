@@ -55,7 +55,11 @@
 
 
 {{ range first 1 .Pages.param "pr" }}
-  <h1>Peer-reviewed publications</h1>
+
+{{ end }}
+
+{{ range first 1 (where .Param "pr").Pages }}
+  <h1>Peer-reviewed rrr</h1>
 {{ end }}
 
 
