@@ -1,9 +1,6 @@
 {{- define "main" }}
 <h1>Peer-reviewed publications</h1>
 
-{{- if (and site.Params.profileMode.enabled .IsHome) }}
-{{- partial "index_profile.html" . }}
-{{- else }} {{/* if not profileMode */}}
 
 {{- $pages := union .RegularPages .Sections }}
 
