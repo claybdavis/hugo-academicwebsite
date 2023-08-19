@@ -27,7 +27,6 @@
 
 {{- if .Content }}
 #### Header
-{{- if (.Param "pr") }}
 
 <div class="post-content">
   {{ partial "by-page-param . "}}
@@ -62,6 +61,7 @@
 {{- $class = "post-entry tag-entry" }}
 {{- end }}
 
+{{- if (.Param "pr") }}
 <article class="{{ $class }}">
   <div class="flex-container">
 
@@ -93,7 +93,7 @@
 </div>
 </article>
 {{ end }}
-
+{{- end }}
 
 {{- if gt $paginator.TotalPages 1 }}
 <footer class="page-footer">
@@ -116,7 +116,6 @@
     {{- end }}
   </nav>
 </footer>
-{{- end }}
 {{- end }}
 
 {{- end }}{{/* end profileMode */}}
