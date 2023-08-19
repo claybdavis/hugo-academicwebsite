@@ -2,7 +2,7 @@
 title: "Paper Title" 
 date: 2012-06-01
 url: /paper/
-pr: true or false
+pr: 
 category: ""
 tags: ["keyword 1","keyword 2"]
 author: ["Author 1", "Author 2"]
