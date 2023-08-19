@@ -1,3 +1,4 @@
+<div><h1>Peer-reviewed publications</h1></div>
 {{- define "main" }}
 
 {{- if (and site.Params.profileMode.enabled .IsHome) }}
@@ -11,7 +12,6 @@
 {{- $term := .Data.Term }}
 {{- range $index, $page := $paginator.Pages }}
 
-<div><h1>Peer-reviewed publications</h1></div>
 {{- if (.Param "pr") }}
 <header class="page-header">
   {{- partial "breadcrumbs.html" . }}
