@@ -31,14 +31,13 @@
 <header class="page-header">
 <h1>Peer-reviewed publications</h1>
 </header>
-
+{{- end }}
 <div class="post-content">
   {{ partial "by-page-param . "}}
   {{- if not (.Param "disableAnchoredHeadings") }}
   {{- partial "anchored_headings.html" .Content -}}
   {{- else }}{{ .Content }}{{ end }}
 </div>
-{{- end }}
 {{- end }}
 
 {{- $pages := union .RegularPages .Sections }}
@@ -56,6 +55,7 @@
 
 {{- $term := .Data.Term }}
 {{- range $index, $page := $paginator.Pages }}
+
 
 <article class="post-entry">
   <div class="flex-container">
