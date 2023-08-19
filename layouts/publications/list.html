@@ -37,6 +37,21 @@
 </div>
 {{- end }}
 
+{{- $pages := union .RegularPages .Sections }}
+
+{{- if .IsHome }}
+{{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true"  }}
+{{- end }}
+
+{{- $paginator := .Paginate $pages }}
+
+{{- if and .IsHome site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
+{{- partial "home_info.html" . }}
+{{- end }}
+
+{{- $term := .Data.Term }}
+{{- range $index, $page := $paginator.Pages }}
 
 {{- if (.Param "pr") }}
 <article class="post-entry">
@@ -71,22 +86,6 @@
 </article>
 {{ end }}
 {{- end }}
-
-{{- $pages := union .RegularPages .Sections }}
-
-{{- if .IsHome }}
-{{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
-{{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true"  }}
-{{- end }}
-
-{{- $paginator := .Paginate $pages }}
-
-{{- if and .IsHome site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
-{{- partial "home_info.html" . }}
-{{- end }}
-
-{{- $term := .Data.Term }}
-{{- range $index, $page := $paginator.Pages }}
 
 {{- if gt $paginator.TotalPages 1 }}
 <footer class="page-footer">
