@@ -2,7 +2,8 @@
 title: "Paper Title" 
 date: 2012-06-01
 url: /paper/
-pr: true OR false
+pr: 1 OR 2
+# 1 for peer reviewed 2 for not
 category: ""
 tags: ["keyword 1","keyword 2"]
 author: ["Author 1", "Author 2"]
