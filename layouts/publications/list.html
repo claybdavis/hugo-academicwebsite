@@ -1,13 +1,9 @@
 {{- define "main" }}
-<h1>Peer-reviewed publications</h1>
-
-
 {{- $pages := union .RegularPages .Sections }}
-
 {{- $paginator := .Paginate $pages }}
-
 {{- $term := .Data.Term }}
 {{- range $index, $page := $paginator.Pages }}
+<h1>Peer-reviewed publications</h1>
 {{- if (.Param "pr") }}
 <header class="page-header">
   {{- partial "breadcrumbs.html" . }}
