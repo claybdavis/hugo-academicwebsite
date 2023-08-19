@@ -28,6 +28,7 @@
 {{- if .Content }}
 #### Header
 
+<h1>Peer-reviewed publications</h1>
 <div class="post-content">
   {{ partial "by-page-param . "}}
   {{- if not (.Param "disableAnchoredHeadings") }}
@@ -62,7 +63,6 @@
 {{- end }}
 
 {{- if (.Param "pr") }}
-<h1>Peer-reviewed publications</h1>
 <article class="{{ $class }}">
   <div class="flex-container">
 
