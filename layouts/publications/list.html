@@ -53,7 +53,7 @@
 {{- $class = "post-entry tag-entry" }}
 {{- end }}
 
-{{ range first 1 (where .Param "pr") }}
+{{ range first 1 (where .Param "pr" "true") }}
   <h1>Peer-reviewed rrr</h1>
 {{ end }}
 
