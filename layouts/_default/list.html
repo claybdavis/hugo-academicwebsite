@@ -59,11 +59,10 @@
 {{- $class = "post-entry tag-entry" }}
 {{- end }}
 
-{{- if in.Params.categories "peer-reviewed"}}
-
 <h2>Peer-reviewed publications</h2>
 
 <article class="{{ $class }}">
+  {{- if in.Params.categories "peer-reviewed"}}
   <div class="flex-container">
 
     <div class="flex-child magenta">
