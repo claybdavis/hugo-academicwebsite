@@ -35,6 +35,13 @@
 </div>
 {{- end }}
 
+{{- $pages := union .RegularPages .Sections }}
+
+{{- $paginator := .Paginate $pages }}
+
+{{- $term := .Data.Term }}
+{{- range $index, $page := $paginator.Pages }}
+
 {{- if (.Param "pr") }}
 <header class="page-header">
 <h1>Peer-reviewed publications</h1>
@@ -104,15 +111,6 @@
 </article>
 {{ end }}
 {{- end }}
-
-
-{{- $pages := union .RegularPages .Sections }}
-
-{{- $paginator := .Paginate $pages }}
-
-{{- $term := .Data.Term }}
-{{- range $index, $page := $paginator.Pages }}
-
 
 {{- if gt $paginator.TotalPages 1 }}
 <footer class="page-footer">
