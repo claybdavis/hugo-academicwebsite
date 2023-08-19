@@ -2,6 +2,7 @@
 {{- $pages := union .RegularPages .Sections }}
 {{- $paginator := .Paginate $pages }}
 {{- $term := .Data.Term }}
+
 <h1>Peer-reviewed publications</h1>
 {{- range $index, $page := $paginator.Pages }}
 {{- if (.Param "pr") }}
@@ -56,6 +57,8 @@
 </article>
 {{ end }}
 
+<h1>Essays</h1>
+{{- range $index, $page := $paginator.Pages }}
 {{- if not (.Param "pr") }}
 <header class="page-header">
   {{- partial "breadcrumbs.html" . }}
@@ -74,7 +77,6 @@
     </a>
     {{- end }}
   </h1>
-  <h1>Essays</h1>
 </header>
 
 <article class="post-entry">
