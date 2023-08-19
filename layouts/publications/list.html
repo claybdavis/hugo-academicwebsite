@@ -28,12 +28,7 @@
 {{- if .Content }}
 #### Header
 
-<div class="post-content">
-  {{ partial "by-page-param . "}}
-  {{- if not (.Param "disableAnchoredHeadings") }}
-  {{- partial "anchored_headings.html" .Content -}}
-  {{- else }}{{ .Content }}{{ end }}
-</div>
+
 {{- end }}
 
 {{- $pages := union .RegularPages .Sections }}
@@ -61,8 +56,14 @@
 {{- $class = "post-entry tag-entry" }}
 {{- end }}
 
+<div class="post-content">
+  {{ partial "by-page-param . "}}
+  {{- if not (.Param "disableAnchoredHeadings") }}
+  {{- partial "anchored_headings.html" .Content -}}
+  {{- else }}{{ .Content }}{{ end }}
+</div>
+
 {{- if (.Param "pr") }}
-<h1>Peer-reviewed publications</h1>
 <article class="{{ $class }}">
   <div class="flex-container">
 
