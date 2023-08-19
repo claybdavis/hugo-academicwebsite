@@ -60,7 +60,7 @@
 {{- $class = "post-entry tag-entry" }}
 {{- end }}
 
-{{- if ($class = "first-entry") && (Params.category "Peer-reviewed")}}
+{{- if Params.category "Peer-reviewed"}}
 <h1>Peer-reviewed publications</h1>
 {{- end }}
 <article class="{{ $class }}">
