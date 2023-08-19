@@ -61,7 +61,7 @@
 {{- end }}
 
 {% if rs_str_1_usr_attr == null or rs_str_1_usr_attr=="" %}
-{{- if .Params.category == "Peer-reviewed"}}
+{{- if (.Param.category "Peer-reviewed") }}
 <h1>Peer-reviewed publications</h1>
 {{- end }}
 <article class="{{ $class }}">
