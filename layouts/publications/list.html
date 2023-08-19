@@ -53,7 +53,7 @@
 {{- $class = "post-entry tag-entry" }}
 {{- end }}
 
-{{ sort site.Params.pr }}
+{{ sort site.Params.pr }} → [true false]
 {{- if (.Params.pr "1") }}
   <h1>Peer-reviewed publications</h1>
 {{- else }}
