@@ -25,14 +25,13 @@
 </header>
 {{- end }}
 
-{{- end }}
-
 {{- $pages := union .RegularPages .Sections }}
 
 {{- $paginator := .Paginate $pages }}
 
 {{- $term := .Data.Term }}
 {{- range $index, $page := $paginator.Pages }}
+
 
 {{- if .Content }}
 #### Header
@@ -42,6 +41,7 @@
   {{- partial "anchored_headings.html" .Content -}}
   {{- else }}{{ .Content }}{{ end }}
 </div>
+{{- end }}
 
 {{- if (.Param "pr") }}
 <article class="post-entry">
