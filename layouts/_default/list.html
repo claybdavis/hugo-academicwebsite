@@ -25,7 +25,7 @@
 </header>
 {{- end }}
 
-{{- if (.Param "Peer-reviewed") }}
+{{- if not (.Param "Peer-reviewed") }}
 {{- if .Content }}
 #### Header
 <div class="post-content">
@@ -62,7 +62,7 @@
 {{- end }}
 
 
-<h1>Peer-reviewed publications</h1>
+<h1>Essays</h1>
 <article class="{{ $class }}">
   <div class="flex-container">
 
@@ -93,6 +93,7 @@
   
 </div>
 </article>
+{{- end }}
 {{- end }}
 
 {{- if gt $paginator.TotalPages 1 }}
