@@ -77,7 +77,7 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v2
         
-params:
-  pr:
-    -true
-    -false
+  params:
+    pr:
+      -true
+      -false
