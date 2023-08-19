@@ -56,6 +56,7 @@
 </div>
 </article>
 {{ end }}
+{{- end }}
 
 <h1>Essays</h1>
 {{- range $index, $page := $paginator.Pages }}
@@ -110,7 +111,7 @@
 </div>
 </article>
 {{ end }}
-
+{{- end }}
 
 {{- if gt $paginator.TotalPages 1 }}
 <footer class="page-footer">
