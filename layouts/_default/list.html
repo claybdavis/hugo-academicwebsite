@@ -27,6 +27,7 @@
 
 {{- if .Content }}
 #### Header
+<h1>Peer-reviewed publications</h1>
 <div class="post-content">
   {{ partial "by-page-param . "}}
   {{- if not (.Param "disableAnchoredHeadings") }}
@@ -52,7 +53,7 @@
 {{- range $index, $page := $paginator.Pages }}
 
 {{- $class := "post-entry" }}
-<h1>Peer-reviewed publications</h1>
+
 {{- $user_preferred := or site.Params.disableSpecial1stPost site.Params.homeInfoParams }}
 {{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) (not $user_preferred)) }}
 {{- $class = "first-entry" }}
