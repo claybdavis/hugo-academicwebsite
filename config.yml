@@ -29,11 +29,9 @@ menu:
           weight: 4
 
 params:
-
-    params:
-      pr:
-        -pr
-        -essay
+    pr:
+      -pr
+      -essay
     description: "I am a PhD candidate in sociology and Mellon Cluster Fellow in science studies at Northwestern University."
     author: Clay Davis
     googleAnalyticsID: ""
