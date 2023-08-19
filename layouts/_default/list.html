@@ -60,6 +60,7 @@
 {{- $class = "post-entry tag-entry" }}
 {{- end }}
 
+<div>
 {{- if not (.Param "Peer-reviewed") }}
 <h1>Essays</h1>
 <article class="{{ $class }}">
@@ -93,7 +94,9 @@
 </div>
 </article>
 {{- end }}
+</div>
 
+<div>
 {{- if (.Param "Peer-reviewed") }}
 <h1>Peer-reviewed publications</h1>
 <article class="{{ $class }}">
@@ -127,6 +130,7 @@
 </div>
 </article>
 {{- end }}
+</div>
 {{- end }}
 
 {{- if gt $paginator.TotalPages 1 }}
