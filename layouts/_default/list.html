@@ -26,6 +26,7 @@
 {{- end }}
 
 {{- if .Content }}
+#### Header
 <div class="post-content">
   {{ partial "by-page-param . "}}
   {{- if not (.Param "disableAnchoredHeadings") }}
@@ -59,10 +60,6 @@
 {{- $class = "post-entry tag-entry" }}
 {{- end }}
 
-{{- if in.Params.categories "peer-reviewed"}}
-
-<h2>Peer-reviewed publications</h2>
-
 <article class="{{ $class }}">
   <div class="flex-container">
 
@@ -93,44 +90,6 @@
   
 </div>
 </article>
-{{- end }}
-{{- end }}
-
-{{- if if in.Params.categories "essay"}}
-
-<h2>Essays</h2>
-
-<article class="{{ $class }}">
-  <div class="flex-container">
-
-    <div class="flex-child magenta">
-  {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
-  {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
-    </div>
-    
-    <div class="flex-child green">
-  <header class="entry-header">
-    <h2>
-      {{- .Title }}
-      {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
-    </h2>
-  </header>
-  {{- if (ne (.Param "hideSummary") true) }}
-  <div class="entry-content">
-    <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
-  </div>
-  {{- end }}
-  {{- if not (.Param "hideMeta") }}
-  <footer class="entry-footer">
-    {{- partial "post_meta.html" . -}}
-  </footer>
-  {{- end }}
-  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
-      </div>
-  
-</div>
-</article>
-{{- end }}
 {{- end }}
 
 {{- if gt $paginator.TotalPages 1 }}
