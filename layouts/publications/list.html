@@ -32,15 +32,6 @@
 {{- $term := .Data.Term }}
 {{- range $index, $page := $paginator.Pages }}
 
-{{- if .Content }}
-#### Header
-<div class="post-content">
-  {{ partial "by-page-param.html"}}
-  {{- if not (.Param "disableAnchoredHeadings") }}
-  {{- partial "anchored_headings.html" .Content -}}
-  {{- else }}{{ .Content }}{{ end }}
-</div>
-{{- end }}
 
 {{- if (.Param "pr") }}
 <article class="post-entry">
@@ -73,7 +64,7 @@
   
 </div>
 </article>
-{{- end }}
+{{ end }}
 
 {{- if not (.Param "pr") }}
 <article class="post-entry">
