@@ -35,7 +35,7 @@
 {{- if .Content }}
 #### Header
 <div class="post-content">
-  {{ partial "by-page-param . "}}
+  {{ partial "by-page-param.html"}}
   {{- if not (.Param "disableAnchoredHeadings") }}
   {{- partial "anchored_headings.html" .Content -}}
   {{- else }}{{ .Content }}{{ end }}
