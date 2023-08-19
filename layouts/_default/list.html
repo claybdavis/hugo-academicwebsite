@@ -25,7 +25,6 @@
 </header>
 {{- end }}
 
-{{- if not (.Param "Peer-reviewed") }}
 {{- if .Content }}
 #### Header
 <div class="post-content">
@@ -61,7 +60,7 @@
 {{- $class = "post-entry tag-entry" }}
 {{- end }}
 
-
+{{- if not (.Param "Peer-reviewed") }}
 <h1>Essays</h1>
 <article class="{{ $class }}">
   <div class="flex-container">
