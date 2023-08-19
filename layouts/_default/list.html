@@ -52,14 +52,13 @@
 {{- range $index, $page := $paginator.Pages }}
 
 {{- $class := "post-entry" }}
-
+<h1>Peer-reviewed publications</h1>
 {{- $user_preferred := or site.Params.disableSpecial1stPost site.Params.homeInfoParams }}
 {{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) (not $user_preferred)) }}
 {{- $class = "first-entry" }}
 {{- else if $term }}
 {{- $class = "post-entry tag-entry" }}
 {{- end }}
-<h1>Peer-reviewed publications</h1>
 
 <article class="{{ $class }}">
   <div class="flex-container">
