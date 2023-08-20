@@ -1,20 +1,15 @@
 ---
-title: "Course Title" 
-date: 2022-03-15
+title: "Science in crisis?" 
+date: 2022-12-01
 url: /course/
-aliases:
-    - /oldurl.html
-tags: ["keyword 1","keyword 2"]
-author: ["Author 1", "Author 2"]
-description: "Course description (for search engines, < 155 chars)" 
-summary: "Course summary (for list page, < 270 chars)" 
+tags: ["Science & Technology Studies","medical sociology"]
+author: ["Clay Davis"]
+description: "An upper-level course in science and technology studies" 
+summary: "The question posed in the title of this course has a double meaning: First, how do scientists deal with epistemic crises that threaten their credibility? And second, how do scientists react in political, epidemiological, or other seemingly external crises that strain their methods and institutions? This course will begin to answer these questions by unpacking the tools that experts use to assert their authority and produce a binding perception of reality. Then, we will consider the way that social movements—including “citizen scientists,” HIV/AIDS activists, and “biohackers”—contest, mistrust, or reaffirm experts’ authority. Finally, we will study how these disputes are shaped by regulatory bureaucracies and the legal system." 
 cover:
-    image: "/course.png"
-    alt: "Image from course"
+    image: "/392_courseposter_Davis.png"
+    alt: "392 course poster"
     relative: false
-editPost:
-    URL: "https://youtube.com/courseplaylist"
-    Text: "YouTube playlist"
 disableAnchoredHeadings: false
 showToc: true
 
@@ -22,29 +17,24 @@ showToc: true
 
 ## Introduction
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The question posed in the title of this course has a double meaning: First, how do scientists deal with epistemic crises that threaten their credibility? And second, how do scientists react in political, epidemiological, or other seemingly external crises that strain their methods and institutions? This course will begin to answer these questions by unpacking the tools that experts use to assert their authority and produce a binding perception of reality. Then, we will consider the way that social movements—including “citizen scientists,” HIV/AIDS activists, and “biohackers”—contest, mistrust, or reaffirm experts’ authority. Finally, we will study how these disputes are shaped by regulatory bureaucracies and the legal system. Throughout the course, students will apply concepts from the interdisciplinary field of science and technology studies (STS) to current events like the covid-19 pandemic. We will address pressing questions like: Why do some people distrust covid-19 vaccines? How did HIV/AIDS activists transform FDA rules that continue to impact patients and research subjects?
 
 ---
 
-## Section 1
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-
-#### Lecture videos
-
-1. [Lecture 1](https://youtu.be/lecture1)
-2. [Lecture 2](https://youtu.be/lecture3)
-3. [Lecture 3](https://youtu.be/lecture3)
+## Preview of module 1: The social construction of expertise
 
 #### Readings
 
-- [Paper 1](https://doi.org/paper1) -- Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-- [Paper2](https://doi.org/paper2) -- Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+- [Latour, Bruno][http://www.bruno-latour.fr/sites/default/files/12-GIVE-ME-A-LAB-GB.pdf]. 1983. "Give Me a Laboratory and I Will Raise the World.” In Science Observed: Perspectives on the Social Study of Science, edited by Karin Knorr Cetina and Michael Mulkay, 141-70. London, UK: Sage.
+- [Gieryn, Thomas][https://doi.org/10.2307/2095325]. 1983. “Boundary-Work and the Demarcation of Science from Non-Science: Strains and Interests in Professional Ideologies of Scientists.” American Sociological Review.
+- [Hilgartner, Stephen][https://www.sup.org/books/title/?id=634]. 2000. Science on Stage. Stanford University Press.
+- [Parthasarathy, Shobita][https://slate.com/technology/2021/03/oxford-astrazeneca-vaccine-blood-clots-europe-trust.html]. 2021. “The AstraZeneca Vaccine Crisis in Europe Isn’t About Science at All.” Slate.
 
-#### Homework
 
-- [Quiz 1](/quiz1.pdf)
-- [Quiz 2](/quiz2.pdf)
-- [Problem set 1](/ps1.pdf)
+#### Description
+
+Our first set of readings are classics the field of science & technology studies (STS). In “Give me a Laboratory and I will Raise the World,” Latour argues that even the laboratory is a site of social action, a place where political projects are shrunk to a manageable scale. He argues that scientists earn their credibility by allying with powerful institutions and actors. If, for Latour, the strength of science lies in its networks, for Hilgartner scientists are masters of “information control.” They conceal controversy on a “back stage” and present a united front to outsiders. This strategy is particularly necessary, Hilgartner argues, when scientists interface with regulators and public audiences who demand quick action and certainty. Gieryn finds that scientists demarcate themselves from non-scientists through “boundary work.” In the three cases he studies, the criteria that define science take different forms. The final assigned text is a contemporary case—Parthasarathy’s account of UK regulators’ attempt to make sense of uncertainty at the outset of the covid-19 pandemic. In their decision to temporarily pull Novavax from the market, UK regulators draw on each of the strategies described above.
+
+#### [Contact me][cdavis@u.northwestern.edu] to see the full syllabus
 
 ---
