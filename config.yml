@@ -86,7 +86,7 @@ params:
         hiddenInSingle: true
     label:
       text: "Clay Davis"
-      icon: /favicon.ico
+      icon: /favicon-32x32.png
       iconHeight: 18
 
 markup:
