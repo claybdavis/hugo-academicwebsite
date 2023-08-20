@@ -27,7 +27,7 @@ menu:
         - name: Google Scholar
           url: https://scholar.google.com/citations?hl=en&user=ZuazMDwAAAAJ
           weight: 4
-           - name: Publications
+        - name: Publications
           url: /publications/
           weight: 1
         - name: CV
