@@ -91,7 +91,3 @@ body:not(.dark) #sun {
 .logo-switches {
     flex-wrap: inherit;
 }
-
-@media screen and (max-width: 37rem) {
-    #menu { flex-direction: column; }
-}
