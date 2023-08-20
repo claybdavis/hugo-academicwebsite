@@ -12,6 +12,11 @@ cover:
     relative: false
 disableAnchoredHeadings: false
 showToc: true
+---
+
+##### Course poster
+
+![](/392_courseposter_Davis.png)
 
 ---
 
