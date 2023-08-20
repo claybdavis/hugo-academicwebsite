@@ -92,10 +92,6 @@ body:not(.dark) #sun {
     flex-wrap: inherit;
 }
 
-.flex-container {
-    display: flex;
-}
-
 @media screen and (max-width: 37rem) {
-    .flex-container { flex-direction: column; }
+    .menu { flex-direction: column; }
 }
