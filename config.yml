@@ -63,9 +63,6 @@ params:
               url: /cv/
             - name: Syllabi
               url: /syllabi/
-            - name: Google Scholar
-              url: https://scholar.google.com/citations?hl=en&user=ZuazMDwAAAAJ
-
 
     socialIcons:
         - name: Email
