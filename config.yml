@@ -27,18 +27,18 @@ menu:
         - name: Google Scholar
           url: https://scholar.google.com/citations?hl=en&user=ZuazMDwAAAAJ
           weight: 4
-        - name: Publications
-          url: /publications/
-          weight: 1
-        - name: CV
-          url: /cv
-          weight: 2
-        - name: Syllabi
-          url: /syllabi/
-          weight: 3
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?hl=en&user=ZuazMDwAAAAJ
-          weight: 4
+        - name: Publication
+          url: /publicaions/
+          weight: 5
+        - name: CS
+          url: /c
+          weight: 6
+        - name: Syllab
+          url: /syllbi/
+          weight: 7
+        - name: Google
+          url: https://sholar.google.com/citations?hl=en&user=ZuazMDwAAAAJ
+          weight: 8
 
 
 params:
