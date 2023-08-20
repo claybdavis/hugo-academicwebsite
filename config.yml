@@ -27,19 +27,6 @@ menu:
         - name: Google Scholar
           url: https://scholar.google.com/citations?hl=en&user=ZuazMDwAAAAJ
           weight: 4
-        - name: Publication
-          url: /publicaions/
-          weight: 5
-        - name: CS
-          url: /c
-          weight: 6
-        - name: Syllab
-          url: /syllbi/
-          weight: 7
-        - name: Google
-          url: https://sholar.google.com/citations?hl=en&user=ZuazMDwAAAAJ
-          weight: 8
-
 
 params:
     description: "I am a PhD candidate in sociology and Mellon Cluster Fellow in science studies at Northwestern University."
