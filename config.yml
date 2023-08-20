@@ -77,6 +77,9 @@ params:
           url: /officehours/
         - name: twitter
           url: https://twitter.com/clay_cd
+        - name: orcid
+          url: https://orcid.org/0000-0002-3443-3512
+          
         
     assets:
         disableHLJS: true
