@@ -1,5 +1,4 @@
 {{- define "main" }}
-{{- $pages := union .RegularPages .Sections }}
 {{- $paginator := .Paginate $pages }}
 {{- $term := .Data.Term }}
 
