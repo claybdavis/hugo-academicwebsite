@@ -1,4 +1,5 @@
 {{- define "main" }}
+{{- $pages := union .RegularPages .Sections }}
 {{- $term := .Data.Term }}
 
 <h1>Peer-reviewed publications</h1>
