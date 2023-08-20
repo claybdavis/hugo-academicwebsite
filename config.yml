@@ -63,7 +63,7 @@ params:
             - name: Publications
               url: /publications/
             - name: CV
-              url: /cv.pdf
+              url: /cv/
             - name: Syllabi
               url: /syllabi/
             - name: Google Scholar
