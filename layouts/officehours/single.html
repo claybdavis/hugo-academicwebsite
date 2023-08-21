@@ -35,6 +35,10 @@
     {{- else }}{{ .Content }}{{ end }}
   </div>
   {{- end }}
+  
+  <div class="calendly">
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+  </div>
 
   <footer class="post-footer">
     {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
