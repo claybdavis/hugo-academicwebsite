@@ -9,10 +9,10 @@ description: "Schedule and location for my office hours at Northwestern Universi
 #### Regular office hours
 
 Regular office hours TBD. 
-
+<script defer language="javascript" type="text/javascript"  src="{{ "/js/calendly.js" | urlize | relURL }}"></script>
 <div class="calendly">
 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
-</div/
+</div>
 
 ---
 
