@@ -1,7 +1,4 @@
 {{- define "main" }}
-
-<script defer language="javascript" type="text/javascript"  src="{{ "/js/calendly.js" | urlize | relURL }}"></script>
-
 <article class="post-single">
   <header class="post-header">
     {{ partial "breadcrumbs.html" . }}
@@ -29,6 +26,7 @@
   {{- partial "toc.html" . }}
   {{- end }}
   
+  <script defer language="javascript" type="text/javascript"  src="{{ "/js/calendly.js" | urlize | relURL }}"></script>
   <div class="calendly">
     <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
   </div>
