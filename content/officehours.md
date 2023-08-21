@@ -1,7 +1,5 @@
 ---
 title: "Office Hours"
-aliases:
-    - /oh.html
 hidemeta: true
 description: "Schedule and location for my office hours at Northwestern University."
 ---
@@ -11,6 +9,8 @@ description: "Schedule and location for my office hours at Northwestern Universi
 #### Regular office hours
 
 Regular office hours TBD. 
+
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
 
 ---
 
