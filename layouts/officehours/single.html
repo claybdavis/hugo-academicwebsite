@@ -31,8 +31,8 @@
     {{- if not (.Param "disableAnchoredHeadings") }}
     {{- partial "anchored_headings.html" .Content -}}
     {{- else }}{{ .Content }}{{ end }}
-    <script defer language="javascript" type="text/javascript"  src="{{ "/js/calendly.js" | urlize | relURL }}"></script>  
     <div class="calendly">
+      <script defer language="javascript" type="text/javascript"  src="{{ "/js/calendly.js" | urlize | relURL }}"></script>  
       <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
     </div>
   </div>
