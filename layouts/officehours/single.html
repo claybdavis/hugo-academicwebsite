@@ -52,10 +52,6 @@
     {{- if (and site.Params.ShowShareButtons (ne .Params.disableShare true)) }}
     {{- partial "share_icons.html" . -}}
     {{- end }}
-    <div class="calendly">
-      <script defer language="javascript" type="text/javascript"  src="{{ "/js/calendly.js" | urlize | relURL }}"></script>  
-      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
-    </div>
   </footer>
 
   {{- if (.Param "comments") }}
