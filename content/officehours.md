@@ -6,6 +6,3 @@ type: "officehours"
 ---
 
 --- 
-#### Office hours by appointment
-
-If you would like to make an appointment outside the hours offered above, please [email me](cdavis@u.northestern.edu).
