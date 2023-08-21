@@ -24,6 +24,9 @@ menu:
         - name: Syllabi
           url: /syllabi/
           weight: 3
+        - name: Office hours
+          url: /officehours/
+          weight: 4
 
 params:
     description: "I am a PhD candidate in sociology and Mellon Cluster Fellow in science studies at Northwestern University."
@@ -63,7 +66,9 @@ params:
               url: /cv/
             - name: Syllabi
               url: /syllabi/
-
+            - name: Office hours
+              url: /officehours/
+              
     socialIcons:
         - name: Email
           url: mailto:cdavis@u.northwestern.edu
