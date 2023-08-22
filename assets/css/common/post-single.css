@@ -317,6 +317,10 @@
     margin-top: 60px;
 }
 
+.post-footercal {
+    margin-top: 10px;
+}
+
 .post-tags li {
     display: inline-block;
     margin-inline-end: 5px;
