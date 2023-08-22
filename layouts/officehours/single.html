@@ -7,7 +7,7 @@
       {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
     </h1>
     <h3>
-      Schedule an appointment through Calendly below or <a href="cdavis@u.northwestern.edu" style="color:#ADD8E6">email me</a> for more availability
+      Schedule an appointment through Calendly or <a href="cdavis@u.northwestern.edu" style="color:#ADD8E6">email me</a> for more availability
     </h3>
 <!--     {{- if .Description }}
     <div class="post-description">
@@ -30,10 +30,12 @@
   {{- end }}
   
     <!-- Calendly inline widget begin -->
+<iframe>
 <div class="calendly-inline-widget" data-url="https://calendly.com/cbd54/office-hours" style="min-width:320px;height:700px;"></div>
 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async>
   iframe.scrolling="no";
 </script>
+</iframe>
 <!-- Calendly inline widget end -->
 
   {{- if .Content }}
