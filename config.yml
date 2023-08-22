@@ -72,8 +72,6 @@ params:
     socialIcons:
         - name: Email
           url: mailto:cdavis@u.northwestern.edu
-        - name: Office Hours
-          url: /officehours/
         - name: twitter
           url: https://twitter.com/clay_cd
         - name: orcid
