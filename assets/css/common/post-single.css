@@ -428,3 +428,7 @@ img.in-text {
     display: inline;
     margin: auto;
 }
+
+.calendly-inline-widget, .simplebar-content-wrapper {
+  overflow: hidden !important;
+}
