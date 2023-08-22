@@ -3,6 +3,11 @@
     margin: 24px auto var(--content-gap) auto;
 }
 
+.post-headercal {
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
+
 .post-title {
     margin-bottom: 20px;
     font-size: 36px;
