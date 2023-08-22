@@ -33,19 +33,7 @@
 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 <!-- Calendly inline widget end -->
 <footer class="post-footer">
-  <h4 style="color:#6c6c6c;">From Calendly: We and our third party partners use cookies and other tracking technologies to provide a proactive support experience, enhance site navigation, analyze site usage, and assist in our marketing efforts. To learn more, or to opt-out of targeted advertising, <a href="https://calendly.com/privacy" style="color:#ADD8E6">click here</a>.</h4>
-    {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
-    <ul class="post-tags">
-      {{- range ($.GetTerms $tags) }}
-      <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
-      {{- end }}
-    </ul>
-    {{- if (.Param "ShowPostNavLinks") }}
-    {{- partial "post_nav_links.html" . }}
-    {{- end }}
-    {{- if (and site.Params.ShowShareButtons (ne .Params.disableShare true)) }}
-    {{- partial "share_icons.html" . -}}
-    {{- end }}
+<h4 style="color:#6c6c6c;">From Calendly: We and our third party partners use cookies and other tracking technologies to provide a proactive support experience, enhance site navigation, analyze site usage, and assist in our marketing efforts. To learn more, or to opt-out of targeted advertising, <a href="https://calendly.com/privacy" style="color:#ADD8E6">click here</a>.</h4>
 </footer>
 
   {{- if (.Param "comments") }}
