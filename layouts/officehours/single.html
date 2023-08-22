@@ -32,14 +32,6 @@
 <div class="calendly-inline-widget" data-url="https://calendly.com/cbd54/office-hours?hide_event_type_details=1&hide_gdpr_banner=1" style="min-width:20rem;height:48rem;"></div>
 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 <!-- Calendly inline widget end -->
-
-  {{- if .Content }}
-  <div class="post-content">
-    {{- if not (.Param "disableAnchoredHeadings") }}
-    {{- partial "anchored_headings.html" .Content -}}
-    {{- else }}{{ .Content }}{{ end }}
-  </div>
-  {{- end }}
   <footer class="post-footer">
   <h4 style="color:#6c6c6c;">From Calendly: We and our third party partners use cookies and other tracking technologies to provide a proactive support experience, enhance site navigation, analyze site usage, and assist in our marketing efforts. To learn more, or to opt-out of targeted advertising, <a href="https://calendly.com/privacy" style="color:#ADD8E6">click here</a>.</h4>
     {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
