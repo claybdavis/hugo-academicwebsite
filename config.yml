@@ -76,7 +76,7 @@ params:
           url: https://twitter.com/clay_cd
         - name: orcid
           url: https://orcid.org/0000-0002-3443-3512
-        - name: scholar
+        - name: google scholar
           url: https://scholar.google.com/citations?hl=en&user=ZuazMDwAAAAJ
           
     assets:
