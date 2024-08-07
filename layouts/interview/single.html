@@ -43,7 +43,6 @@
 {{- end }}
 
 <footer class="post-footercal">
-  <h4 style="color:#6c6c6c;">From Calendly: We and our third party partners use cookies and other tracking technologies to provide a proactive support experience, enhance site navigation, analyze site usage, and assist in our marketing efforts. To learn more, or to opt-out of targeted advertising, <a href="https://calendly.com/privacy" style="color:#ADD8E6">click here</a>.</h4>
   {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
     <ul class="post-tags">
       {{- range ($.GetTerms $tags) }}
