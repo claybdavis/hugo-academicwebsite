@@ -1,6 +1,6 @@
 ---
-title: "Office Hours"
+title: "Schedule a research interview"
 hidemeta: true
-description: "Schedule and location for my office hours at Northwestern University."
+description: "Use Calendly to schedule a research interview with me on Zoom or at Northwestern University."
 type: "interview"
 ---
