@@ -54,7 +54,7 @@ params:
     profileMode:
           enabled: true
           title: Clay Davis
-          subtitle: "I am a PhD candidate in sociology and Mellon Cluster Fellow in science studies at Northwestern University. I study the way experts<code>&#8212;</code>both lay and credentialed<code>&#8212;</code>construct their credibility and resolve epistemic conflicts. In particular, I am attuned to the way these actors use and revise methodological tools like randomized controlled trials (see my paper in <i><a href='/3S1'>Social Studies of Science</a></i>) and meta-analysis (as I explore in my dissertation) in service of these goals."
+          subtitle: "I am a PhD candidate in sociology and Mellon Cluster Fellow in science studies at Northwestern University. I study the way experts<code>&#8212;</code>both lay and credentialed<code>&#8212;</code>construct their credibility and resolve epistemic conflicts. In particular, I am attuned to the way these actors use and revise methodological tools like randomized controlled trials (see my paper in <i><a href='/3S1' style="color:#b5e5d3">Social Studies of Science</a></i>) and meta-analysis (as I explore in my dissertation) in service of these goals."
           imageUrl: "/picture.jpeg"
           imageWidth: 160
           imageHeight: 160
